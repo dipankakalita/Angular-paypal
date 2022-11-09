@@ -29,25 +29,8 @@ export class PaypalComponent implements OnInit {
         {
           amount: {
             currency_code: 'USD',
-            value: '19.99',
-            breakdown: {
-              item_total: {
-                currency_code: 'USD',
-                value: '19.99'
-              }
-            }
-          },
-          items: [
-            {
-              name: 'Enterprise Subscription',
-              quantity: '1',
-              category: 'DIGITAL_GOODS',
-              unit_amount: {
-                currency_code: 'USD',
-                value: '19.99',
-              },
-            }
-          ]
+            value: '20.00'
+          }
         }
       ]
     },
